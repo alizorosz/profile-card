@@ -38,7 +38,7 @@ body {
 
 .content {
     margin: -30% 0 auto 50%;
-    border-left: 1px solid hsla(0, 0%, 30%, .8);
+    border-left: 2px solid #d80e79;
 }
 
 img {
@@ -50,7 +50,7 @@ img {
 }
 
 .profile-image {
-    margin-top: -60px;
+    margin-top: -20px;
 }
 
 ul {
