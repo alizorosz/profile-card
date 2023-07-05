@@ -14,10 +14,11 @@ body {
     height: 100vh;
     background-color: rgb(241, 227, 234);
     background-size: cover;
+    font-family: Trebuchet MS, sans-serif;
 }
 
 .profile-card {
-    width: 480px;
+    width: 1280px;
     max-width: calc(100vh - 10px);
     background-color:rgb(215, 115, 160);
     border-radius: 4px;
@@ -33,24 +34,19 @@ body {
 }
 
 .head {
-    margin: 0 50% auto 0;
+    border-right: 2px solid #d80e79;
 }
 
 .content {
-    margin: -30% 0 auto 50%;
-    border-left: 2px solid #d80e79;
+    margin: -50% 0 auto 50%;
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     padding: 1px;
     background-color: #666;
-}
-
-.profile-image {
-    margin-top: -20px;
 }
 
 ul {
@@ -61,15 +57,24 @@ li {
     display: inline;
 }
 
-.profile-image, .name-headline, .about, .content {
-    margin-bottom: 10%;
+.content, .name-headline, .about {
+    padding: 5% 5%;
 }
 
-.content, .name-headline {
-    padding: 5% 5%;
+.links {
+    padding: 2% 2%;
 }
 
 .fa-linkedin:hover, .fa-facebook:hover, .fa-instagram:hover {
     transform: scale(1.1);
     transition: all 0.1s ease-in-out;
+}
+
+.about {
+    text-align: justify;
+    margin-bottom: 2%;
+}
+
+.profile-image {
+    margin: 10% 10%;
 }
