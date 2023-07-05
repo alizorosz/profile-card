@@ -1,1 +1,1 @@
-# profile-card project
+# Profile card project
