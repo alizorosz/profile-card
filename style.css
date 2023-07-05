@@ -1,3 +1,23 @@
+/*.head {
+    background-color: yellow;
+}
+
+.name-headline {
+    background-color: red;
+}
+
+.about {
+    background-color: green;
+}
+
+.links {
+    background-color: blue;
+}
+
+.profile-image {
+    background-color: purple;
+}*/
+
 /* CSS reset */
 
 * {
@@ -18,7 +38,7 @@ body {
 }
 
 .profile-card {
-    width: 1280px;
+    width: 480px;
     max-width: calc(100vh - 10px);
     background-color:rgb(215, 115, 160);
     border-radius: 4px;
@@ -30,15 +50,15 @@ body {
 }
 
 .head, .content {
-    width: 50%;
+    width: 90%;
 }
 
-.head {
-    border-right: 2px solid #d80e79;
+.name-headline {
+    border-bottom: 2px solid #d80e79;
 }
 
-.content {
-    margin: -50% 0 auto 50%;
+.content, .head {
+    margin: 0 auto;
 }
 
 img {
@@ -57,11 +77,7 @@ li {
     display: inline;
 }
 
-.content, .name-headline, .about {
-    padding: 5% 5%;
-}
-
-.links {
+.content, .name-headline, .about, .links, .profile-image {
     padding: 2% 2%;
 }
 
@@ -76,5 +92,5 @@ li {
 }
 
 .profile-image {
-    margin: 10% 10%;
+    margin: 2% 0;
 }
